@@ -1,20 +1,31 @@
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import Categories from "./components/Categories"
-import FeaturedCourses from "./components/FeaturedCourses"
-import Footer from "./components/Footer"
-import "./App.css"
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Categories />
-      <FeaturedCourses />
-      <Footer />
-    </div>
-  )
+
+
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
+import Header  from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx"
+import  Home from "./pages/Home.jsx";
+import  DsaTutorial  from "./pages/DsaTutorial.jsx";
+import ArrayDS from "./pages/DsaTopics/ArrayDS.jsx";
+const App = () => {
+   return (
+      
+         <BrowserRouter>
+         <Header/>
+            <Routes>
+               <Route path="/" element={<Home/>} />
+               <Route path="/DsaTutorial" element={<DsaTutorial/>}>
+               <Route path="array" element={<ArrayDS />} />
+               </Route>
+             
+            </Routes>
+            <Footer/>
+         </BrowserRouter>
+      
+   )
 }
 
-export default App
+export default App;
