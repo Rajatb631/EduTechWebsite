@@ -17,3 +17,6 @@ npm install tailwindcss-animate
 
 # Install react-router-dom
 npm i react-router-dom
+
+# Install Firebase
+npm i firebase
