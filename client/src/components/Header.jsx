@@ -469,6 +469,8 @@ const Header = () => {
         </div>
       </header>
 
+      
+
       <EmailLoginModal
         isOpen={showLoginModal}
         onClose={() => setShowLoginModal(false)}

@@ -21,6 +21,7 @@ export default function LoginModal({ isOpen, onClose }) {
 
     const { name, email, phone, password, confirmPassword } = form;
 
+    
     if (password !== confirmPassword) {
       setError("Passwords do not match");
       return;
