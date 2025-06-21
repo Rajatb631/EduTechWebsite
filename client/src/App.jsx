@@ -1,7 +1,3 @@
-
-
-
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -10,6 +6,7 @@ import Footer from "./components/Footer.jsx"
 import  Home from "./pages/Home.jsx";
 import  DsaTutorial  from "./pages/DsaTutorial.jsx";
 import ArrayDS from "./pages/DsaTopics/ArrayDS.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 const App = () => {
    return (
       
@@ -20,6 +17,7 @@ const App = () => {
                <Route path="/DsaTutorial" element={<DsaTutorial/>}>
                <Route path="array" element={<ArrayDS />} />
                </Route>
+                <Route path="/dashboard" element={<Dashboard />} />
              
             </Routes>
             <Footer/>
