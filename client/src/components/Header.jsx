@@ -350,15 +350,25 @@ const Header = () => {
                       <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-100">
                         Popular Courses
                       </div>
-                      <a href="#" className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors duration-150">
-                        <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center mr-3">🤖</div>
+                      <Link
+                        to="/courses/ai-ml"
+                        className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors duration-150"
+                      >
+                        <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
+                          🤖
+                        </div>
                         <div>
                           <div className="font-medium">AI/ML</div>
                           <div className="text-xs text-gray-500">Machine Learning & AI</div>
                         </div>
-                      </a>
-                      <a href="#" className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors duration-150">
-                        <div className="w-8 h-8 bg-yellow-100 rounded-lg flex items-center justify-center mr-3">🐍</div>
+                      </Link>
+                      <a
+                        href="#"
+                        className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors duration-150"
+                      >
+                        <div className="w-8 h-8 bg-yellow-100 rounded-lg flex items-center justify-center mr-3">
+                          🐍
+                        </div>
                         <div>
                           <div className="font-medium">Python</div>
                           <div className="text-xs text-gray-500">Programming Language</div>

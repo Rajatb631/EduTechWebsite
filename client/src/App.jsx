@@ -6,7 +6,7 @@ import Footer from "./components/Footer.jsx"
 import  Home from "./pages/Home.jsx";
 import  DsaTutorial  from "./pages/DsaTutorial.jsx";
 import ArrayDS from "./pages/DsaTopics/ArrayDS.jsx";
-import Dashboard from "./pages/Dashboard.jsx";
+import CourseLandingPage from "./pages/Courses/CourseLandingPage.jsx";
 const App = () => {
    return (
       
@@ -14,6 +14,7 @@ const App = () => {
          <Header/>
             <Routes>
                <Route path="/" element={<Home/>} />
+               <Route path="/courses/ai-ml" element={<CourseLandingPage/>} />
                <Route path="/DsaTutorial" element={<DsaTutorial/>}>
                <Route path="array" element={<ArrayDS />} />
                </Route>
