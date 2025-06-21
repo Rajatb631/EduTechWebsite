@@ -7,6 +7,7 @@ import  Home from "./pages/Home.jsx";
 import  DsaTutorial  from "./pages/DsaTutorial.jsx";
 import ArrayDS from "./pages/DsaTopics/ArrayDS.jsx";
 import CourseLandingPage from "./pages/Courses/CourseLandingPage.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 const App = () => {
    return (
       
