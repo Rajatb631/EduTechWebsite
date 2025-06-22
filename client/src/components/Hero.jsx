@@ -1,10 +1,11 @@
+import img1 from '../assests/heroImg.jpeg'
 const Hero = () => {
   return (
     <section className="relative bg-black">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="/placeholder.svg?height=600&width=1200"
+          src={img1}
           alt="Students learning"
           className="w-full h-full object-cover opacity-60"
         />
@@ -14,14 +15,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
-          {/* Logo */}
-          <div className="flex justify-center mb-8">
-            <div className="bg-white rounded-full p-3">
-              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">P</span>
-              </div>
-            </div>
-          </div>
+         
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
