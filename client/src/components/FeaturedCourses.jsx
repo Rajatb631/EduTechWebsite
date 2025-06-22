@@ -1,21 +1,26 @@
+import img1 from "../assests/pythonlogo.png"
+import img2 from "../assests/MachineLearningLogo.png"
+import img3 from "../assests/react-logo.svg"
+
 const FeaturedCourses = () => {
+  
   const courses = [
     {
       id: 1,
       title: "Complete React Development Course",
-      image: "/placeholder.svg?height=200&width=300",
+      image: img3,
       category: "Web Development",
     },
     {
       id: 2,
       title: "Python for Data Science",
-      image: "/placeholder.svg?height=200&width=300",
+      image: img1,
       category: "Programming",
     },
     {
       id: 3,
       title: "Machine Learning Fundamentals",
-      image: "/placeholder.svg?height=200&width=300",
+      image: img2,
       category: "AI/ML",
     },
   ]

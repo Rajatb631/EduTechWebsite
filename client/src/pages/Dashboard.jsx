@@ -16,7 +16,8 @@ import {
   Star,
   Users,
 } from "lucide-react"
-
+import img1 from '../assests/jsLogo.png'
+import img2 from '../assests/react-logo.svg'
 
 
 export default function Dashboard() {
@@ -70,7 +71,7 @@ export default function Dashboard() {
       progress: 75,
       rating: 4.8,
       students: 1250,
-      thumbnail: "/placeholder.svg?height=200&width=300",
+      thumbnail: img2,
       price: "$99.99",
       purchaseDate: "2024-01-15",
       category: "Web Development",
@@ -83,7 +84,7 @@ export default function Dashboard() {
       progress: 45,
       rating: 4.9,
       students: 890,
-      thumbnail: "/placeholder.svg?height=200&width=300",
+      thumbnail: img1,
       price: "$79.99",
       purchaseDate: "2024-01-20",
       category: "Programming",
